@@ -22,13 +22,22 @@
             <version>4.13.2</version>
             <scope>test</scope>
         </dependency>
+
+        <dependency>
+        <groupId>LinkedIntQueue</groupId>
+        <artifactId>LinkedIntQueue</artifactId>
+        <version>1.0</version>
+        <scope>system</scope>
+        <systemPath>${project.basedir}/lib/LinkedIntQueue.jar</systemPath>
+        </dependency>
+
+        
         <!-- importing a jar file provided with this recitation (not usually needed) -->
         <dependency>
-            <groupId>LinkedIntQueue</groupId>
-            <artifactId>LinkedIntQueue</artifactId>
-            <version>1.0</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/lib/LinkedIntQueue.jar</systemPath>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.8.2</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 
