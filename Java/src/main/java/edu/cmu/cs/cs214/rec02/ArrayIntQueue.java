@@ -62,8 +62,7 @@ public class ArrayIntQueue implements IntQueue {
         return value;
     }
 
-    /** {@inheritDoc} */
-    public boolean enqueue(Integer value) {
+    /** {@inheritDocr value) {
         ensureCapacity();
         int tail = (head + size) % elementData.length;
         elementData[tail] = value;
